@@ -1,0 +1,618 @@
+* {
+    padding: 0%;
+    color: whitesmoke;
+    margin: 0%;
+
+}
+
+.main {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.hero {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/1200x/e1/c2/63/e1c2635c17ca2258c2230fd1a1b28daf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+nav {
+    height: 10vh;
+    font-size: 4vh;
+    backdrop-filter: blur(5vh);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12vh;
+    padding-right: 10vh;
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.nav-box a {
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.nav-box button {
+    border-radius: 30px;
+    border: 0.2vh solid rgb(249, 249, 249);
+    height: 5vh;
+    overflow: hidden;
+    font-size: 3vh;
+    background-color: transparent;
+    width: 13vh;
+}
+
+.hero-box {
+    display: flex;
+    height: 90vh;
+}
+
+.box1 {
+    background-color: rgba(59, 66, 71, 0.187);
+    height: 100%;
+    width: 40%;
+    padding-left: 5vw;
+    padding-top: 1vw;
+}
+
+.box1 h1 {
+    font-size: 10vh;
+
+}
+
+.box1 p {
+    padding-top: 2vw;
+    font-size: 4.2vh;
+}
+
+.detail {
+    margin-top: 3vw;
+
+}
+
+.detail button {
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-size: 3vh;
+    height: 9vh;
+    width: 25vh;
+    border-radius: 5vh;
+    cursor: pointer;
+
+    background-image: linear-gradient(to right, rgba(213, 213, 99, 0.855), rgba(114, 208, 114, 0.709))
+}
+
+
+.detail a {
+    text-decoration: none;
+    padding-left: 15vh;
+    font-size: 4vh;
+
+}
+
+.box2 {
+    background-color: rgba(70, 72, 74, 0);
+    overflow: visible;
+    height: 100%;
+    width: 60%;
+    background-image: url(./asset/hero\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+/* content area */
+
+.content {
+    width: 100%;
+    height: 20vh;
+    overflow-x: hidden;
+    display: flex;
+    background-position-y: center;
+    background-image: url(https://img2.wallspic.com/previews/8/7/2/2/1/112278/112278-atmosphere-light_bulb-candle-light-bulb-x750.jpg);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    backdrop-filter: blur(15px);
+    display: flex;
+
+    background-color: rgba(53, 49, 49, 0.235);
+    position: absolute;
+    height: 30vh;
+    width: 80%;
+    overflow: hidden;
+    margin-top: -5vh;
+    border-radius: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+.work {
+    width: 60%;
+    justify-content: space-evenly;
+    height: 100%;
+
+    display: flex;
+
+}
+
+#box {
+    align-content: center;
+    text-align: center;
+    line-height: 7vh;
+    height: 100%;
+    margin: auto;
+    color: black;
+    width: 20%;
+
+}
+
+#box span {
+    font-size: medium;
+    font-size: 4vh;
+
+}
+
+#box h1 {
+    font-weight: 900;
+    font-size: 7vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.photo {
+    width: 40%;
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+
+}
+
+.photo p {
+    display: inline;
+    font-size: 6vh;
+
+}
+
+.photo>p>span {
+
+    font-size: 3vh;
+}
+
+.image {
+    height: 10vh;
+    width: 100%;
+    margin-top: 2%;
+    justify-content: center;
+
+    display: flex;
+
+}
+
+.image1 {
+    height: 10vh;
+    width: 10vh;
+
+    overflow: hidden;
+    border: 1.5px solid black;
+    margin-right: -2vh;
+    border-radius: 10vh;
+
+}
+
+.image1 img {
+    display: block;
+    height: 14vh;
+    object-fit: contain;
+    object-position: -5vh;
+}
+
+
+.popular-item {
+    height: 70vh;
+    width: calc(100% - 10vh);
+    background-color: rgba(250, 235, 215, 0.443);
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* this section for trending */
+.trending {
+    height: 100vh;
+    background-image: url(https://img2.wallspic.com/previews/8/7/2/2/1/112278/112278-atmosphere-light_bulb-candle-light-bulb-x750.jpg);
+    filter: brightness(-2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.trending-box {
+    height: 80vh;
+    border-radius: 2vw;
+    display: flex;
+    backdrop-filter: blur(12px);
+    background-color: rgba(29, 30, 31, 0.46);
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.trending-box1 {
+    height: 100%;
+    width: 50%;
+
+}
+
+.trending-box1part1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+
+
+.background-image {
+    height: 50%;
+    position: relative;
+    background-image: linear-gradient(to left, #BF7E1C, #47250B);
+    width: 40%;
+    margin: auto;
+    border-radius: 5vh;
+    border: 2px solid black;
+
+}
+
+.image-t1 {
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    bottom: 0;
+    background-image: url(./asset/modi-ksNE--621x414_LiveMint-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 80%;
+    background-size: cover;
+    left: 0;
+
+
+    border-radius: 0 0 5vh 5vh;
+}
+
+.image-t2 {
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    bottom: 0;
+    background-image: url(./asset/97761481318-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 80%;
+    background-size: cover;
+    left: 0;
+
+
+    border-radius: 0 0 5vh 5vh;
+}
+
+
+.trending-box1part2 {
+    height: 50%;
+    width: 100%;
+    align-content: center;
+    display: flex;
+
+}
+
+.image-t3 {
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    bottom: 0;
+    background-image: url(./asset/modi-ksNE--621x414_LiveMint-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 80%;
+    background-size: cover;
+    left: 0;
+
+
+    border-radius: 0 0 5vh 5vh;
+}
+
+.image-t4 {
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    bottom: 0;
+    background-image: url(./asset/97761481318-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 80%;
+    background-size: cover;
+    left: 0;
+
+
+    border-radius: 0 0 5vh 5vh;
+}
+
+
+
+
+
+
+.trending-box2 {
+    height: 100%;
+    width: 50%;
+    padding-top: 4vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    flex-wrap: wrap;
+
+}
+
+.trending-box2 p {
+    color: rgb(81, 156, 81);
+
+}
+
+.trending-box2 h1 {
+    font-size: 10vh;
+    line-height: 10vh;
+    margin-top: 5vh;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#description {
+    margin-top: 4vw;
+    color: whitesmoke;
+}
+
+.trending-box2 a {
+    padding-top: 7vh;
+    display: block;
+    font-size: 5vh;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+/* this is artist section   */
+.Artist-section {
+    height: 100vh;
+    
+    background-image: url(https://img.freepik.com/premium-photo/abstract-circular-bokeh-background-christmas-light_43379-252.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+
+    border-top: 2px solid #010101;
+}
+
+.artist-box {
+   
+    backdrop-filter: blur(20px);
+    border-radius: 5%;
+    overflow: hidden;
+    height: 80%;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.a-box1 {
+    height: 60%;
+    width: 30%;
+   
+    padding: 15vh 5vh;
+
+
+}
+
+.a-box1 span {
+    color: rgb(189, 227, 189);
+}
+
+.a-box1 h2 {
+    margin-top: 2vw;
+    font-size: 4vw;
+    line-height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.a-box1 p{
+    margin-top: 5vh;
+}
+
+.a-box2 {
+    height: 100%;
+    width: 30%;
+   
+   
+}
+
+.a-box3 {
+    height: 100%;
+    width: 30%;
+
+   
+}
+
+
+.artist-conainer {
+    position: relative;
+    height: 50%; 
+    transition: 0.4s;
+    margin-top: 23vh;
+    border-radius: 10%;
+  backdrop-filter: blur(30px);
+}
+.artist-conainer:hover{
+    box-shadow: 10px 10px 20px #b0b0b062;
+}
+
+.top-container {
+    align-content: center;
+    position: relative;
+    height: 70%;
+    text-align: center;
+    margin: 0 30%;
+  
+}
+
+.circle {
+    height: 15vh;
+    width: 15vh;
+    background-image: url(./asset/97761481318-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: absolute;
+    top: -6vh;
+    left: 2.5vw;
+
+   background-color: #bf7e1c4e;
+    border-radius: 50%;
+}
+
+.bottom-container {
+    background-image: url(https://previews.123rf.com/images/virtosmedia/virtosmedia2302/virtosmedia230242825/198714152-3d-rendering-of-futuristic-robot-in-orange-and-grey-colors-sci-fi-background.jpg);
+    position: absolute;
+    bottom: 0%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8%;
+    height: 50%;
+    width: 100%;
+    background-color: #e7992c;
+}
+.circle1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJF-Jbvjw8a2SE5JhnJr4wVj2qw6Y8xPcw6g7hWdjwTw&s);
+    height: 15vh;
+    width: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: absolute;
+    top: -6vh;
+    left: 2.5vw;
+
+    background-color: #000000;
+    border-radius: 50%;
+}
+.bottom-container-second{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyiNmAd5c_hQNFghkTfKH_3GLZrp10tMEo8Z1Sdeba5g&s);
+    position: absolute;
+    bottom: 0%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8%;
+    height: 50%;
+    width: 100%;
+    background-color: #e7992c;
+}
+
+/* this is footer  */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease forwards;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 0;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 5px;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    animation: slideInUp 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
